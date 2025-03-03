@@ -1,0 +1,26 @@
+﻿  roblox sniper.cpp
+C:\Users\user24\source\repos\roblox sniper\roblox sniper\roblox sniper.cpp(75,70): warning C4244: аргумент: преобразование "__int64" в "_Ty", возможна потеря данных
+C:\Users\user24\source\repos\roblox sniper\roblox sniper\roblox sniper.cpp(75,70): warning C4244:         with
+C:\Users\user24\source\repos\roblox sniper\roblox sniper\roblox sniper.cpp(75,70): warning C4244:         [
+C:\Users\user24\source\repos\roblox sniper\roblox sniper\roblox sniper.cpp(75,70): warning C4244:             _Ty=int
+C:\Users\user24\source\repos\roblox sniper\roblox sniper\roblox sniper.cpp(75,70): warning C4244:         ]
+      C:\Users\user24\source\repos\roblox sniper\roblox sniper\roblox sniper.cpp(75,70):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\user24\source\repos\roblox sniper\roblox sniper\roblox sniper.cpp(117,37):
+          выполняется компиляция ссылки на экземпляр шаблон функции "Iter select_randomly<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Elem>>>>(Iter,Iter)"
+          with
+          [
+              Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>,
+              _Elem=char
+          ]
+          C:\Users\user24\source\repos\roblox sniper\roblox sniper\roblox sniper.cpp(84,12):
+          выполняется компиляция ссылки на экземпляр шаблон функции "Iter select_randomly<Iter,std::mt19937>(Iter,Iter,RandomGenerator &)"
+          with
+          [
+              Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<char>>>,
+              RandomGenerator=std::mt19937
+          ]
+  
+  roblox sniper.vcxproj -> C:\Users\user24\source\repos\roblox sniper\x64\Debug\roblox sniper.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
