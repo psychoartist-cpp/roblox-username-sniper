@@ -6,3 +6,5 @@ You can also use the prebuilt sniper in the x64/debug catalog. It's configuratio
 valid_users.txt as the file
 birthday as 2002-02-02
 request delay as 350 milliseconds.
+DEPENDENCIES:
+nlohmann/json, libCurl
